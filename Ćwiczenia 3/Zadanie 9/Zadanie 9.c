@@ -19,7 +19,7 @@ int qwert(int q)
     {
         if(q==1)
         {
-            return 2;
+            return 1;
         }
         else
         {
@@ -31,7 +31,7 @@ int qwert(int q)
 int main()
 {
 	int q;
-	scanf("%d",&q);
+	scanf("%d",&q);y
 	printf("%d",qwert(q));
 	
 	return 0;
